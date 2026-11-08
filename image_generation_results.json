@@ -1,0 +1,99 @@
+{
+  "experiment_type": "image_generation_prompts",
+  "model": "gemini-2.5-flash",
+  "timestamp": "2025-11-11T00:03:35.490654",
+  "total_tokens_saved": 4443,
+  "average_reduction": 22.508599277136593,
+  "results": [
+    {
+      "scenario": "Single Image Prompt",
+      "prompt_count": 1,
+      "json_tokens": 77,
+      "toon_tokens": 72,
+      "tokens_saved": 5,
+      "percentage_reduction": 6.493506493506493,
+      "json_size": 139,
+      "toon_size": 126
+    },
+    {
+      "scenario": "Batch Generation (10 images)",
+      "prompt_count": 10,
+      "json_tokens": 446,
+      "toon_tokens": 244,
+      "tokens_saved": 202,
+      "percentage_reduction": 45.2914798206278,
+      "json_size": 1072,
+      "toon_size": 546
+    },
+    {
+      "scenario": "Batch Generation (50 images)",
+      "prompt_count": 50,
+      "json_tokens": 2098,
+      "toon_tokens": 1016,
+      "tokens_saved": 1082,
+      "percentage_reduction": 51.57292659675882,
+      "json_size": 5356,
+      "toon_size": 2550
+    },
+    {
+      "scenario": "Batch Generation (100 images)",
+      "prompt_count": 100,
+      "json_tokens": 4164,
+      "toon_tokens": 1983,
+      "tokens_saved": 2181,
+      "percentage_reduction": 52.377521613832855,
+      "json_size": 10711,
+      "toon_size": 5056
+    },
+    {
+      "scenario": "Detailed Prompts (20 images)",
+      "prompt_count": 20,
+      "json_tokens": 1738,
+      "toon_tokens": 1691,
+      "tokens_saved": 47,
+      "percentage_reduction": 2.704257767548907,
+      "json_size": 5429,
+      "toon_size": 5773
+    },
+    {
+      "scenario": "Detailed Prompts (50 images)",
+      "prompt_count": 50,
+      "json_tokens": 4295,
+      "toon_tokens": 4170,
+      "tokens_saved": 125,
+      "percentage_reduction": 2.910360884749709,
+      "json_size": 13574,
+      "toon_size": 14428
+    },
+    {
+      "scenario": "Scene Layout Prompts (15 scenes)",
+      "prompt_count": 15,
+      "json_tokens": 2035,
+      "toon_tokens": 1320,
+      "tokens_saved": 715,
+      "percentage_reduction": 35.13513513513514,
+      "json_size": 6153,
+      "toon_size": 4657
+    },
+    {
+      "scenario": "Style Variations (20 styles, same content)",
+      "prompt_count": 20,
+      "json_tokens": 791,
+      "toon_tokens": 769,
+      "tokens_saved": 22,
+      "percentage_reduction": 2.781289506953224,
+      "json_size": 2438,
+      "toon_size": 2527
+    },
+    {
+      "scenario": "Style Variations (50 styles, same content)",
+      "prompt_count": 50,
+      "json_tokens": 1933,
+      "toon_tokens": 1869,
+      "tokens_saved": 64,
+      "percentage_reduction": 3.3109156751163993,
+      "json_size": 6115,
+      "toon_size": 6332
+    }
+  ]
+}

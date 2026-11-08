@@ -1,0 +1,373 @@
+{
+  "model": "gemini-2.5-flash",
+  "timestamp": "2025-11-11T00:12:59.135626",
+  "total_scenarios": 31,
+  "total_tokens_saved": 92600,
+  "average_reduction": 20.282281707210462,
+  "overall_reduction": 25.38398067966568,
+  "results_by_type": {
+    "data_analysis": {
+      "count": 4,
+      "avg_reduction": 29.345969327463582,
+      "total_saved": 10293
+    },
+    "image_generation": {
+      "count": 3,
+      "avg_reduction": 35.08981589297418,
+      "total_saved": 1891
+    },
+    "conversation": {
+      "count": 2,
+      "avg_reduction": -16.813062184965005,
+      "total_saved": -735
+    },
+    "analysis": {
+      "count": 22,
+      "avg_reduction": 19.987433286576252,
+      "total_saved": 81151
+    }
+  },
+  "results": [
+    {
+      "scenario": "Data Analysis - Simple Records (100)",
+      "record_count": 100,
+      "json_tokens": 2810,
+      "toon_tokens": 1628,
+      "tokens_saved": 1182,
+      "percentage_reduction": 42.06405693950178,
+      "json_size": 7777,
+      "toon_size": 2815,
+      "experiment_type": "data_analysis"
+    },
+    {
+      "scenario": "Data Analysis - Simple Records (500)",
+      "record_count": 500,
+      "json_tokens": 15110,
+      "toon_tokens": 9128,
+      "tokens_saved": 5982,
+      "percentage_reduction": 39.589675711449374,
+      "json_size": 40143,
+      "toon_size": 15181,
+      "experiment_type": "data_analysis"
+    },
+    {
+      "scenario": "Data Analysis - Complex Nested (50)",
+      "record_count": 50,
+      "json_tokens": 8372,
+      "toon_tokens": 8741,
+      "tokens_saved": -369,
+      "percentage_reduction": -4.407548972766364,
+      "json_size": 21007,
+      "toon_size": 19546,
+      "experiment_type": "data_analysis"
+    },
+    {
+      "scenario": "Data Analysis - Tabular/CSV-like (200)",
+      "record_count": 200,
+      "json_tokens": 8715,
+      "toon_tokens": 5217,
+      "tokens_saved": 3498,
+      "percentage_reduction": 40.137693631669535,
+      "json_size": 25243,
+      "toon_size": 8587,
+      "experiment_type": "data_analysis"
+    },
+    {
+      "scenario": "Image Generation - Batch Prompts (20)",
+      "record_count": 20,
+      "json_tokens": 662,
+      "toon_tokens": 439,
+      "tokens_saved": 223,
+      "percentage_reduction": 33.68580060422961,
+      "json_size": 2143,
+      "toon_size": 1047,
+      "experiment_type": "image_generation"
+    },
+    {
+      "scenario": "Image Generation - Batch Prompts (100)",
+      "record_count": 100,
+      "json_tokens": 3166,
+      "toon_tokens": 1984,
+      "tokens_saved": 1182,
+      "percentage_reduction": 37.33417561591914,
+      "json_size": 10711,
+      "toon_size": 5056,
+      "experiment_type": "image_generation"
+    },
+    {
+      "scenario": "Image Generation - Style Variations (50)",
+      "record_count": 50,
+      "json_tokens": 1419,
+      "toon_tokens": 933,
+      "tokens_saved": 486,
+      "percentage_reduction": 34.24947145877378,
+      "json_size": 5743,
+      "toon_size": 3233,
+      "experiment_type": "image_generation"
+    },
+    {
+      "scenario": "Conversation - Short Context (10 msgs)",
+      "record_count": 21,
+      "json_tokens": 759,
+      "toon_tokens": 886,
+      "tokens_saved": -127,
+      "percentage_reduction": -16.73254281949934,
+      "json_size": 1946,
+      "toon_size": 2010,
+      "experiment_type": "conversation"
+    },
+    {
+      "scenario": "Conversation - Long Context (50 msgs)",
+      "record_count": 101,
+      "json_tokens": 3599,
+      "toon_tokens": 4207,
+      "tokens_saved": -608,
+      "percentage_reduction": -16.893581550430675,
+      "json_size": 9456,
+      "toon_size": 9761,
+      "experiment_type": "conversation"
+    },
+    {
+      "scenario": "API - REST Responses (100)",
+      "record_count": 100,
+      "json_tokens": 6302,
+      "toon_tokens": 4526,
+      "tokens_saved": 1776,
+      "percentage_reduction": 28.18152967311964,
+      "json_size": 14439,
+      "toon_size": 6996,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "API - GraphQL Nested Response (50)",
+      "record_count": 50,
+      "json_tokens": 5506,
+      "toon_tokens": 7312,
+      "tokens_saved": -1806,
+      "percentage_reduction": -32.80058118416273,
+      "json_size": 13690,
+      "toon_size": 25438,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Config - Application Configs (10)",
+      "record_count": 10,
+      "json_tokens": 841,
+      "toon_tokens": 1061,
+      "tokens_saved": -220,
+      "percentage_reduction": -26.159334126040427,
+      "json_size": 2748,
+      "toon_size": 3412,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Batch - User Updates (200)",
+      "record_count": 200,
+      "json_tokens": 9771,
+      "toon_tokens": 11528,
+      "tokens_saved": -1757,
+      "percentage_reduction": -17.981782826732168,
+      "json_size": 23741,
+      "toon_size": 27746,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Batch - User Updates (500)",
+      "record_count": 500,
+      "json_tokens": 24546,
+      "toon_tokens": 28928,
+      "tokens_saved": -4382,
+      "percentage_reduction": -17.852195877128658,
+      "json_size": 59516,
+      "toon_size": 69521,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Streaming - Time Series (100)",
+      "record_count": 100,
+      "json_tokens": 4533,
+      "toon_tokens": 3430,
+      "tokens_saved": 1103,
+      "percentage_reduction": 24.332671519964702,
+      "json_size": 11161,
+      "toon_size": 5189,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Streaming - Log Stream (200)",
+      "record_count": 200,
+      "json_tokens": 12032,
+      "toon_tokens": 9054,
+      "tokens_saved": 2978,
+      "percentage_reduction": 24.75066489361702,
+      "json_size": 30291,
+      "toon_size": 14554,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Database - SQL Results (100)",
+      "record_count": 100,
+      "json_tokens": 4579,
+      "toon_tokens": 3000,
+      "tokens_saved": 1579,
+      "percentage_reduction": 34.48351168377375,
+      "json_size": 12259,
+      "toon_size": 4917,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Database - SQL Results (500)",
+      "record_count": 500,
+      "json_tokens": 23646,
+      "toon_tokens": 15667,
+      "tokens_saved": 7979,
+      "percentage_reduction": 33.74355070625053,
+      "json_size": 62179,
+      "toon_size": 25237,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Database - JOIN Results (200)",
+      "record_count": 200,
+      "json_tokens": 13003,
+      "toon_tokens": 8432,
+      "tokens_saved": 4571,
+      "percentage_reduction": 35.15342613243098,
+      "json_size": 33371,
+      "toon_size": 13256,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Logs - Structured Logs (100)",
+      "record_count": 100,
+      "json_tokens": 8163,
+      "toon_tokens": 5594,
+      "tokens_saved": 2569,
+      "percentage_reduction": 31.47127281636653,
+      "json_size": 18388,
+      "toon_size": 7775,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Logs - Structured Logs (500)",
+      "record_count": 500,
+      "json_tokens": 41653,
+      "toon_tokens": 28684,
+      "tokens_saved": 12969,
+      "percentage_reduction": 31.135812546515258,
+      "json_size": 92913,
+      "toon_size": 39500,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Forms - Survey Responses (200)",
+      "record_count": 200,
+      "json_tokens": 13650,
+      "toon_tokens": 8283,
+      "tokens_saved": 5367,
+      "percentage_reduction": 39.31868131868132,
+      "json_size": 34546,
+      "toon_size": 11911,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Forms - Survey Responses (500)",
+      "record_count": 500,
+      "json_tokens": 34295,
+      "toon_tokens": 20828,
+      "tokens_saved": 13467,
+      "percentage_reduction": 39.26811488555183,
+      "json_size": 86576,
+      "toon_size": 29841,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "E-commerce - Product Catalog (100)",
+      "record_count": 100,
+      "json_tokens": 6626,
+      "toon_tokens": 4038,
+      "tokens_saved": 2588,
+      "percentage_reduction": 39.05825535768186,
+      "json_size": 18740,
+      "toon_size": 6911,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "E-commerce - Product Catalog (500)",
+      "record_count": 500,
+      "json_tokens": 34252,
+      "toon_tokens": 21184,
+      "tokens_saved": 13068,
+      "percentage_reduction": 38.15251664136401,
+      "json_size": 94951,
+      "toon_size": 35442,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Science - Experimental Data (100)",
+      "record_count": 100,
+      "json_tokens": 6065,
+      "toon_tokens": 4169,
+      "tokens_saved": 1896,
+      "percentage_reduction": 31.261335531739487,
+      "json_size": 17065,
+      "toon_size": 7030,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Code - File Tree Structure (50)",
+      "record_count": 50,
+      "json_tokens": 2873,
+      "toon_tokens": 2143,
+      "tokens_saved": 730,
+      "percentage_reduction": 25.408980160111383,
+      "json_size": 6281,
+      "toon_size": 2836,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Finance - Transactions (200)",
+      "record_count": 200,
+      "json_tokens": 15874,
+      "toon_tokens": 11301,
+      "tokens_saved": 4573,
+      "percentage_reduction": 28.80811389693839,
+      "json_size": 41762,
+      "toon_size": 18450,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Finance - Transactions (500)",
+      "record_count": 500,
+      "json_tokens": 39637,
+      "toon_tokens": 28164,
+      "tokens_saved": 11473,
+      "percentage_reduction": 28.94517748568257,
+      "json_size": 104405,
+      "toon_size": 45993,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Finance - Account Statements (100)",
+      "record_count": 100,
+      "json_tokens": 5059,
+      "toon_tokens": 3004,
+      "tokens_saved": 2055,
+      "percentage_reduction": 40.62067602292943,
+      "json_size": 12328,
+      "toon_size": 3501,
+      "experiment_type": "analysis"
+    },
+    {
+      "scenario": "Healthcare - Medical Records (100)",
+      "record_count": 100,
+      "json_tokens": 7279,
+      "toon_tokens": 8704,
+      "tokens_saved": -1425,
+      "percentage_reduction": -19.576864953977193,
+      "json_size": 18801,
+      "toon_size": 21218,
+      "experiment_type": "analysis"
+    }
+  ]
+}

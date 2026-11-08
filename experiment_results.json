@@ -1,0 +1,117 @@
+{
+  "model": "gemini-2.5-flash",
+  "timestamp": "2025-11-11T00:03:25.628740",
+  "total_tokens_saved": 23233,
+  "results": [
+    {
+      "scenario": "Small Dataset - Simple Records",
+      "record_count": 20,
+      "json_tokens": 585,
+      "toon_tokens": 362,
+      "tokens_saved": 223,
+      "percentage_reduction": 38.11965811965812,
+      "json_size": 1523,
+      "toon_size": 560
+    },
+    {
+      "scenario": "Medium Dataset - Simple Records",
+      "record_count": 100,
+      "json_tokens": 2825,
+      "toon_tokens": 1643,
+      "tokens_saved": 1182,
+      "percentage_reduction": 41.84070796460177,
+      "json_size": 7777,
+      "toon_size": 2815
+    },
+    {
+      "scenario": "Large Dataset - Simple Records",
+      "record_count": 500,
+      "json_tokens": 15125,
+      "toon_tokens": 9143,
+      "tokens_saved": 5982,
+      "percentage_reduction": 39.550413223140495,
+      "json_size": 40143,
+      "toon_size": 15181
+    },
+    {
+      "scenario": "Very Large Dataset - Simple Records",
+      "record_count": 1000,
+      "json_tokens": 30625,
+      "toon_tokens": 18644,
+      "tokens_saved": 11981,
+      "percentage_reduction": 39.12163265306122,
+      "json_size": 80727,
+      "toon_size": 30766
+    },
+    {
+      "scenario": "Medium Dataset - Complex Nested Records",
+      "record_count": 50,
+      "json_tokens": 8387,
+      "toon_tokens": 8756,
+      "tokens_saved": -369,
+      "percentage_reduction": -4.399666149994038,
+      "json_size": 21007,
+      "toon_size": 19546
+    },
+    {
+      "scenario": "Large Dataset - Complex Nested Records",
+      "record_count": 200,
+      "json_tokens": 34436,
+      "toon_tokens": 35893,
+      "tokens_saved": -1457,
+      "percentage_reduction": -4.231037286560576,
+      "json_size": 85147,
+      "toon_size": 79287
+    },
+    {
+      "scenario": "Medium Dataset - Unique Records (Worst Case)",
+      "record_count": 100,
+      "json_tokens": 5646,
+      "toon_tokens": 4265,
+      "tokens_saved": 1381,
+      "percentage_reduction": 24.459794544810485,
+      "json_size": 17879,
+      "toon_size": 11329
+    },
+    {
+      "scenario": "Medium Dataset - Tabular/CSV-like Data (Best Case)",
+      "record_count": 150,
+      "json_tokens": 6555,
+      "toon_tokens": 3937,
+      "tokens_saved": 2618,
+      "percentage_reduction": 39.938977879481314,
+      "json_size": 18925,
+      "toon_size": 6449
+    },
+    {
+      "scenario": "Medium Dataset - API Response Data",
+      "record_count": 100,
+      "json_tokens": 7007,
+      "toon_tokens": 4835,
+      "tokens_saved": 2172,
+      "percentage_reduction": 30.997573854716716,
+      "json_size": 17037,
+      "toon_size": 7319
+    },
+    {
+      "scenario": "Medium Dataset - Mixed Types (Nulls, Booleans)",
+      "record_count": 80,
+      "json_tokens": 4583,
+      "toon_tokens": 5884,
+      "tokens_saved": -1301,
+      "percentage_reduction": -28.38751909229762,
+      "json_size": 9949,
+      "toon_size": 11685
+    },
+    {
+      "scenario": "Medium Dataset - Large Text Fields",
+      "record_count": 60,
+      "json_tokens": 9163,
+      "toon_tokens": 8342,
+      "tokens_saved": 821,
+      "percentage_reduction": 8.959947615409801,
+      "json_size": 32992,
+      "toon_size": 29201
+    }
+  ]
+}
